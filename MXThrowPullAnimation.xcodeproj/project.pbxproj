@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153A518D1CA10324004C9245 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A518C1CA10324004C9245 /* AppDelegate.swift */; };
+		153A518F1CA10324004C9245 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A518E1CA10324004C9245 /* ViewController.swift */; };
+		153A51921CA10324004C9245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153A51901CA10324004C9245 /* Main.storyboard */; };
+		153A51941CA10324004C9245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153A51931CA10324004C9245 /* Assets.xcassets */; };
+		153A51971CA10324004C9245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153A51951CA10324004C9245 /* LaunchScreen.storyboard */; };
+		153A51A21CA10324004C9245 /* MXThrowPullAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A51A11CA10324004C9245 /* MXThrowPullAnimationTests.swift */; };
+		153A51AD1CA10324004C9245 /* MXThrowPullAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153A51AC1CA10324004C9245 /* MXThrowPullAnimationUITests.swift */; };
+		153A51BC1CA103BB004C9245 /* goldfish_feature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 153A51BB1CA103BB004C9245 /* goldfish_feature.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		153A519E1CA10324004C9245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 153A51811CA10324004C9245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 153A51881CA10324004C9245;
+			remoteInfo = MXThrowPullAnimation;
+		};
+		153A51A91CA10324004C9245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 153A51811CA10324004C9245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 153A51881CA10324004C9245;
+			remoteInfo = MXThrowPullAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		153A51891CA10324004C9245 /* MXThrowPullAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXThrowPullAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		153A518C1CA10324004C9245 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		153A518E1CA10324004C9245 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		153A51911CA10324004C9245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		153A51931CA10324004C9245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		153A51961CA10324004C9245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		153A51981CA10324004C9245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153A519D1CA10324004C9245 /* MXThrowPullAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXThrowPullAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		153A51A11CA10324004C9245 /* MXThrowPullAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXThrowPullAnimationTests.swift; sourceTree = "<group>"; };
+		153A51A31CA10324004C9245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153A51A81CA10324004C9245 /* MXThrowPullAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXThrowPullAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		153A51AC1CA10324004C9245 /* MXThrowPullAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXThrowPullAnimationUITests.swift; sourceTree = "<group>"; };
+		153A51AE1CA10324004C9245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153A51BB1CA103BB004C9245 /* goldfish_feature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldfish_feature.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		153A51861CA10324004C9245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153A519A1CA10324004C9245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153A51A51CA10324004C9245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153A51801CA10324004C9245 = {
+			isa = PBXGroup;
+			children = (
+				153A51BA1CA1033B004C9245 /* Resources */,
+				153A518B1CA10324004C9245 /* MXThrowPullAnimation */,
+				153A51A01CA10324004C9245 /* MXThrowPullAnimationTests */,
+				153A51AB1CA10324004C9245 /* MXThrowPullAnimationUITests */,
+				153A518A1CA10324004C9245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		153A518A1CA10324004C9245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				153A51891CA10324004C9245 /* MXThrowPullAnimation.app */,
+				153A519D1CA10324004C9245 /* MXThrowPullAnimationTests.xctest */,
+				153A51A81CA10324004C9245 /* MXThrowPullAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		153A518B1CA10324004C9245 /* MXThrowPullAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				153A518C1CA10324004C9245 /* AppDelegate.swift */,
+				153A518E1CA10324004C9245 /* ViewController.swift */,
+				153A51901CA10324004C9245 /* Main.storyboard */,
+				153A51931CA10324004C9245 /* Assets.xcassets */,
+				153A51951CA10324004C9245 /* LaunchScreen.storyboard */,
+				153A51981CA10324004C9245 /* Info.plist */,
+			);
+			path = MXThrowPullAnimation;
+			sourceTree = "<group>";
+		};
+		153A51A01CA10324004C9245 /* MXThrowPullAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				153A51A11CA10324004C9245 /* MXThrowPullAnimationTests.swift */,
+				153A51A31CA10324004C9245 /* Info.plist */,
+			);
+			path = MXThrowPullAnimationTests;
+			sourceTree = "<group>";
+		};
+		153A51AB1CA10324004C9245 /* MXThrowPullAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				153A51AC1CA10324004C9245 /* MXThrowPullAnimationUITests.swift */,
+				153A51AE1CA10324004C9245 /* Info.plist */,
+			);
+			path = MXThrowPullAnimationUITests;
+			sourceTree = "<group>";
+		};
+		153A51BA1CA1033B004C9245 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				153A51BB1CA103BB004C9245 /* goldfish_feature.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		153A51881CA10324004C9245 /* MXThrowPullAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153A51B11CA10324004C9245 /* Build configuration list for PBXNativeTarget "MXThrowPullAnimation" */;
+			buildPhases = (
+				153A51851CA10324004C9245 /* Sources */,
+				153A51861CA10324004C9245 /* Frameworks */,
+				153A51871CA10324004C9245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXThrowPullAnimation;
+			productName = MXThrowPullAnimation;
+			productReference = 153A51891CA10324004C9245 /* MXThrowPullAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		153A519C1CA10324004C9245 /* MXThrowPullAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153A51B41CA10324004C9245 /* Build configuration list for PBXNativeTarget "MXThrowPullAnimationTests" */;
+			buildPhases = (
+				153A51991CA10324004C9245 /* Sources */,
+				153A519A1CA10324004C9245 /* Frameworks */,
+				153A519B1CA10324004C9245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				153A519F1CA10324004C9245 /* PBXTargetDependency */,
+			);
+			name = MXThrowPullAnimationTests;
+			productName = MXThrowPullAnimationTests;
+			productReference = 153A519D1CA10324004C9245 /* MXThrowPullAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		153A51A71CA10324004C9245 /* MXThrowPullAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153A51B71CA10324004C9245 /* Build configuration list for PBXNativeTarget "MXThrowPullAnimationUITests" */;
+			buildPhases = (
+				153A51A41CA10324004C9245 /* Sources */,
+				153A51A51CA10324004C9245 /* Frameworks */,
+				153A51A61CA10324004C9245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				153A51AA1CA10324004C9245 /* PBXTargetDependency */,
+			);
+			name = MXThrowPullAnimationUITests;
+			productName = MXThrowPullAnimationUITests;
+			productReference = 153A51A81CA10324004C9245 /* MXThrowPullAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		153A51811CA10324004C9245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = muxiao;
+				TargetAttributes = {
+					153A51881CA10324004C9245 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					153A519C1CA10324004C9245 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 153A51881CA10324004C9245;
+					};
+					153A51A71CA10324004C9245 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 153A51881CA10324004C9245;
+					};
+				};
+			};
+			buildConfigurationList = 153A51841CA10324004C9245 /* Build configuration list for PBXProject "MXThrowPullAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 153A51801CA10324004C9245;
+			productRefGroup = 153A518A1CA10324004C9245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				153A51881CA10324004C9245 /* MXThrowPullAnimation */,
+				153A519C1CA10324004C9245 /* MXThrowPullAnimationTests */,
+				153A51A71CA10324004C9245 /* MXThrowPullAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		153A51871CA10324004C9245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153A51971CA10324004C9245 /* LaunchScreen.storyboard in Resources */,
+				153A51941CA10324004C9245 /* Assets.xcassets in Resources */,
+				153A51BC1CA103BB004C9245 /* goldfish_feature.jpg in Resources */,
+				153A51921CA10324004C9245 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153A519B1CA10324004C9245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153A51A61CA10324004C9245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		153A51851CA10324004C9245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153A518F1CA10324004C9245 /* ViewController.swift in Sources */,
+				153A518D1CA10324004C9245 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153A51991CA10324004C9245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153A51A21CA10324004C9245 /* MXThrowPullAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153A51A41CA10324004C9245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153A51AD1CA10324004C9245 /* MXThrowPullAnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		153A519F1CA10324004C9245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 153A51881CA10324004C9245 /* MXThrowPullAnimation */;
+			targetProxy = 153A519E1CA10324004C9245 /* PBXContainerItemProxy */;
+		};
+		153A51AA1CA10324004C9245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 153A51881CA10324004C9245 /* MXThrowPullAnimation */;
+			targetProxy = 153A51A91CA10324004C9245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		153A51901CA10324004C9245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				153A51911CA10324004C9245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		153A51951CA10324004C9245 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				153A51961CA10324004C9245 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		153A51AF1CA10324004C9245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		153A51B01CA10324004C9245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		153A51B21CA10324004C9245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MXThrowPullAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXThrowPullAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		153A51B31CA10324004C9245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MXThrowPullAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXThrowPullAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		153A51B51CA10324004C9245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MXThrowPullAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXThrowPullAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXThrowPullAnimation.app/MXThrowPullAnimation";
+			};
+			name = Debug;
+		};
+		153A51B61CA10324004C9245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MXThrowPullAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXThrowPullAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXThrowPullAnimation.app/MXThrowPullAnimation";
+			};
+			name = Release;
+		};
+		153A51B81CA10324004C9245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MXThrowPullAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXThrowPullAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MXThrowPullAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		153A51B91CA10324004C9245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MXThrowPullAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXThrowPullAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MXThrowPullAnimation;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		153A51841CA10324004C9245 /* Build configuration list for PBXProject "MXThrowPullAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153A51AF1CA10324004C9245 /* Debug */,
+				153A51B01CA10324004C9245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153A51B11CA10324004C9245 /* Build configuration list for PBXNativeTarget "MXThrowPullAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153A51B21CA10324004C9245 /* Debug */,
+				153A51B31CA10324004C9245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		153A51B41CA10324004C9245 /* Build configuration list for PBXNativeTarget "MXThrowPullAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153A51B51CA10324004C9245 /* Debug */,
+				153A51B61CA10324004C9245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		153A51B71CA10324004C9245 /* Build configuration list for PBXNativeTarget "MXThrowPullAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153A51B81CA10324004C9245 /* Debug */,
+				153A51B91CA10324004C9245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 153A51811CA10324004C9245 /* Project object */;
+}
